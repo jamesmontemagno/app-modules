@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ComponentApp.Module1"
+             x:Class="ComponentApp.Module1.MainPage">
+
+    <StackLayout Padding="50">
+        <!-- Place new controls here -->
+        <Label Text="This is coming from Module1!"  />
+        <Image Source="ic_view_module.png" WidthRequest="60" HeightRequest="60"
+               Aspect="AspectFill"/>
+    </StackLayout>
+
+</ContentPage>
